@@ -4,7 +4,7 @@ import Parent from './Parent'
 import ValueContext from './ValueContext'
 
 function App() {
-  let anyValue = 181
+  let anyValue = 181;
   return (
     <ValueContext.Provider value={anyValue}>
       <div>

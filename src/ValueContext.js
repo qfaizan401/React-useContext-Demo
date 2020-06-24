@@ -1,5 +1,5 @@
 import React from 'react'
 
-const ValueContext = React.useContext(45)
+const ValueContext = React.useContext()
 
 export default ValueContext
