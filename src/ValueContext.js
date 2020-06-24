@@ -1,5 +1,5 @@
-import React from 'react'
+import {useContext} from 'react'
 
-const ValueContext = React.useContext()
+const ValueContext = useContext(45)
 
 export default ValueContext
