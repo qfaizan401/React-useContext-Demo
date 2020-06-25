@@ -7,8 +7,8 @@ const ChlidTwo = () => {
         <div>
             This is ChlidTwo Comp {state}
             <br/>
-            <button onClick={ () => { dispatch({ type:"INCREMENT" }) } }>Increment</button>
-            <button onClick={ () => { dispatch({ type:"DECREMENT" }) } }>Decrement</button>
+            <button onClick={ () => { dispatch({ type:"INCREMENT", val:10}) } }>Increment</button>
+            <button onClick={ () => { dispatch({ type:"DECREMENT", val:10}) } }>Decrement</button>
         </div>
     )
 }
