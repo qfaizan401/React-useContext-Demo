@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import ValueContext from './ValueContext'
 
-const Child = (props) => {
+const Child = () => {
     let newValue = useContext(ValueContext)
     return(
         <div>
